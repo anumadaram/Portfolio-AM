@@ -1,0 +1,54 @@
+/*Need to add pseudo classes, background, color, font-family, font-size, height, margins, padding, text-align*/
+/*This is the new version of box sizing property that allows me to include both the padding and the border within the total width and height of the element.*/
+{box-sizing:box-border;}
+
+/*pseudo classes for all the links used in the website.*/
+a:link {color: black;}
+a:visited {color: gray;}
+a:hover {color: darkblue;}
+a:active {color: lightgrey;}
+
+/*header and footer should match in everything except height and line-height*/
+/*combination styles goes before the individual ones*/
+header,footer{
+  background-color: #8aa39b;
+  color: #333333;
+  text-align: center;
+  font-family: cursive,"lucida-sans", "sans-serif";
+}
+
+p,ul,ol{
+  font-size: small;
+}
+
+h2,p,ul,ol{
+  font-family: cursive, "lucida-sans", "sans-serif";
+  color: black;
+}
+
+header{
+  line-height: 30px;
+}
+
+footer{
+  height: 50px;
+  line-height: 50px;
+}
+
+body{
+  background-color: #e4e1d0;
+}
+
+h2{
+  text-align: center;
+  font-size: large;
+}
+
+hr{
+  border: 1px solid #333333;
+}
+
+article{
+  margin: 30px;
+  padding: 10px;
+}

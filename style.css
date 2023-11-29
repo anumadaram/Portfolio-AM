@@ -29,6 +29,8 @@ h2,p,ul,ol{
 header{
   line-height: 30px;
 }
+img{
+  text-align: center;}
 
 footer{
   height: 50px;
